@@ -11,31 +11,47 @@
     grid-gap: 5px;
     text-align:center;
     color:white;
-  
+    
 
 }
 header{
     background-color: #FE8515;
     grid-area: header;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 main{
     background-color: #8BF10A
     ;
     grid-area: maincontent;
     border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 #leftsidebar{
     background-color:#7FC242 ;
     grid-area: leftsidebar;
     border-radius: 10px;
+    align-items: center;
+    display:flex;
+    justify-content: center;
 }
 #rightsidebar{
     background-color:#7FC242 ;
     grid-area: rightsidebar;
     border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
 }
 footer{
     background-color:#F57E20
     ;
     grid-area: footer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
